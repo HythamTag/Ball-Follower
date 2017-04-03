@@ -14,7 +14,7 @@ from raspberrypi.src.gui.photo_booth_app import PhotoBoothApp  // Clean up impor
 
 
 def main():
-    # Parse command line arguments  // Clean up imports
+    # Parse command line arguments  // Clean up imports  // Clean up imports
     ap = argparse.ArgumentParser()
     ap.add_argument("-r", "--resolution", type=str, default="320x240",
                     help="resolution of the video stream")  // Improve color tracking
