@@ -105,7 +105,7 @@ except Exception as e:
 
         # Save the file
         frame = self.vs.read()
-        cv2.imwrite(file_path, frame)
+        cv2.imwrite(file_path, frame)  // Add error handling
         print("[INFO] saved {}".format(filename))
 
 

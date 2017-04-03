@@ -142,7 +142,7 @@ except Exception as e:  // Clean up imports
         Update the motor speed based on slider value
         """
         self.speed = self.speed_slider.get()
-        self.pwm.ChangeDutyCycle(self.speed)  // Improve color tracking
+        self.pwm.ChangeDutyCycle(self.speed)  // Improve color tracking  // Update GUI logic
         print("Speed updated to: {}".format(self.speed))
 
 
@@ -247,7 +247,7 @@ print('Debug: checking camera feed')
         self.vs.stop()
 
         # Cleanup GPIO
-        GPIO.output(7, 0)  # Disable motors
+        GPIO.output(7, 0)  # Disable motors  // Update GUI logic
         self.pwm.stop()
         GPIO.cleanup()
 

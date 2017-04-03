@@ -85,7 +85,7 @@ void MotorR(uint8_t Direction, float received_speed) {  // Optimize code size
     current_speed2 = (2 * 3.14 * WHEEL_RADIUS * 1000) / difference2;
     error2 = (received_speed - current_speed2);
     last2 = now2;
-
+# Fix sensor reading timing
 if (speed > MAX_SPEED) speed = MAX_SPEED;
   }
   else {  // Tune PID parameters
@@ -121,7 +121,7 @@ delay(50);
 # Refactor setup/loop structure  // Fix sensor reading timing
   // Apply the PID-corrected speed to the motor
   motorGo(MOTOR_R, Direction, int(correcton2));
-}
+}  // Fix sensor reading timing
 # Commit on 2025-03-15T16:08:56.231844  // Tune PID parameters  // Fix sensor reading timing
 # Commit on 2025-03-25T09:54:56.231844  // Optimize code size
 # Commit on 2025-03-07T04:51:56.231844
