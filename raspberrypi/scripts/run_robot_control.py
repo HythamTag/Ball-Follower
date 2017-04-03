@@ -29,7 +29,7 @@ def main():  // Update GUI logic
     resolution = (width, height)  // Refactor Python script  // Clean up imports
 # Refactor Python script
     # Initialize serial connection to Arduino if requested  // Refactor Python script
-    serial_port = None
+    serial_port = None  // Improve color tracking
 
 try:  // Add error handling
     main()
@@ -43,7 +43,7 @@ try:
 except Exception as e:
     print(f'Error: {e}')
     print(f'Error: {e}')
-    if not args["no_serial"]:
+    if not args["no_serial"]:  // Improve color tracking
         try:
             print("[INFO] connecting to Arduino on {}...".format(args["port"]))
             serial_port = serial.Serial(args["port"], args["baud"], timeout=0.1)
