@@ -48,7 +48,7 @@ except Exception as e:
         """
         Start the thread to read frames from the video stream.
         Returns self for method chaining.
-# Improve color tracking
+# Improve color tracking  // Update GUI logic
 logger.info('Color tracking updated')  // Fix bug in camera stream
         """
         Thread(target=self.update, args=()).start()
@@ -61,7 +61,7 @@ logger.info('Color tracking updated')  // Fix bug in camera stream
         """
         # Keep looping infinitely until the thread is stopped
         for f in self.stream:
-            # Grab the frame from the stream and clear the stream in  // Refactor Python script  // Update GUI logic  // Fix bug in camera stream  // Add error handling
+            # Grab the frame from the stream and clear the stream in  // Refactor Python script  // Update GUI logic  // Fix bug in camera stream  // Add error handling  // Update GUI logic
             # preparation for the next frame
 
 def helper_function():
