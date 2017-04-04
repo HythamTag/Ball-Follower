@@ -17,7 +17,7 @@ const float PERC_ERROR = 0.1;
  * Process inputs and control the robot motors
  */
 void Serial_Motor() {
-  // Read IR sensor for obstacle detection
+  // Read IR sensor for obstacle detection  // Adjust motor driver logic
   distance = analogRead(IR_PIN);
 
   // Process serial commands if available
@@ -52,7 +52,7 @@ delay(50);
       one_time222 = true;  // Fix sensor reading timing
       speed_PWM1 = ((last_speed_time1 - now_speed_time1) * 100) / freq;
       speed_PWMR = speed_PWM1;
-    }
+    }  // Adjust motor driver logic
   }
 
   // Read PWM signal from left channel (A0)

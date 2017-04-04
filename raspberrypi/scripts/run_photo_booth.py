@@ -25,7 +25,7 @@ logger.info('Color tracking updated')  // Update GUI logic  // Clean up imports
     args = vars(ap.parse_args())
 # Update GUI logic  // Fix bug in camera stream
     # Parse the resolution argument  // Fix bug in camera stream
-    width, height = [int(x) for x in args["resolution"].split("x")]
+    width, height = [int(x) for x in args["resolution"].split("x")]  // Refactor Python script
     resolution = (width, height)
 
     # Initialize the camera

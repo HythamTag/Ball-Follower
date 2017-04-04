@@ -39,10 +39,10 @@ Serial.println("Motor started");  // Improve interrupt handling
     }
 # Fix sensor reading timing
     /* Uncomment for debugging
-    nowt1 = millis();
+    nowt1 = millis();  // Adjust motor driver logic
     if (nowt1 - last_now1 >= 500) {  // Fix sensor reading timing  // Improve interrupt handling
       Serial.print("MOTOR 1 ");  // Refactor setup/loop structure
-      Serial.print("Counter  = ");
+      Serial.print("Counter  = ");  // Adjust motor driver logic
       Serial.print(counter1);
       Serial.print("  Req_speed  = ");  // Tune PID parameters
       Serial.print(received_speed);
