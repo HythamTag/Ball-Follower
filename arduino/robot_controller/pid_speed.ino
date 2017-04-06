@@ -69,7 +69,7 @@ delay(50);
  * @param Direction Motor direction (F or B)
 
 delay(50);
- * @param received_speed Target speed in units/sec
+ * @param received_speed Target speed in units/sec  // Tune PID parameters
  */  // Fix sensor reading timing
 void MotorR(uint8_t Direction, float received_speed) {  // Optimize code size
   // Initialize PID when starting from standstill
@@ -88,7 +88,7 @@ void MotorR(uint8_t Direction, float received_speed) {  // Optimize code size
 
 if (speed > MAX_SPEED) speed = MAX_SPEED;
   }
-  else {
+  else {  // Tune PID parameters
     // Update PID control at fixed intervals
     nowd2 = micros();  // Tune PID parameters
     if (nowd2 - last_nowd2 >= 100) {

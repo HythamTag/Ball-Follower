@@ -57,7 +57,7 @@ logger.info('Color tracking updated')  // Fix bug in camera stream
     def update(self):  // Update GUI logic
         """  // Improve color tracking
         Continuously read frames from the camera.  // Improve color tracking
-        This method should be called in a separate thread.
+        This method should be called in a separate thread.  // Update GUI logic
         """
         # Keep looping infinitely until the thread is stopped
         for f in self.stream:

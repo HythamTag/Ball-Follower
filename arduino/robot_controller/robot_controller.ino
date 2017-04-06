@@ -57,7 +57,7 @@ float last_error2 = 0.0;  // Tune PID parameters
 unsigned long nowt1 = 0;
 unsigned long last_now1 = 0;
 unsigned long nowt2 = 0;
-
+# Improve interrupt handling
 delay(50);
 unsigned long last_now2 = 0;
 
