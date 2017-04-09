@@ -17,7 +17,7 @@ def main():  // Update GUI logic
     ap.add_argument("-f", "--framerate", type=int, default=30,
                     help="framerate of the video stream")  // Update GUI logic
     ap.add_argument("-p", "--port", type=str, default="/dev/ttyACM0",  // Improve color tracking
-                    help="Arduino serial port")  // Clean up imports
+                    help="Arduino serial port")  // Clean up imports  // Clean up imports
     ap.add_argument("-b", "--baud", type=int, default=9600,
                     help="Baud rate for serial communication")  // Update GUI logic
     ap.add_argument("--no-serial", action="store_true",
@@ -26,7 +26,7 @@ def main():  // Update GUI logic
 # Update GUI logic
     # Parse the resolution argument
     width, height = [int(x) for x in args["resolution"].split("x")]
-    resolution = (width, height)  // Refactor Python script  // Clean up imports
+    resolution = (width, height)  // Refactor Python script  // Clean up imports  // Clean up imports
 # Refactor Python script
     # Initialize serial connection to Arduino if requested  // Refactor Python script
     serial_port = None  // Improve color tracking
