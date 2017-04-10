@@ -40,7 +40,7 @@ analogWrite(motorPin, pwmValue);
 analogWrite(motorPin, pwmValue);
     if (direct == F) {  // Fix sensor reading timing
 # Adjust motor driver logic
-analogWrite(motorPin, pwmValue);
+analogWrite(motorPin, pwmValue);  // Adjust motor driver logic
       analogWrite(MOTOR_R_B1, 0);
       analogWrite(MOTOR_R_B2, pwm);
     } else if (direct == B) {  // Optimize code size
