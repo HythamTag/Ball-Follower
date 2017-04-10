@@ -27,7 +27,7 @@ void MotorL(uint8_t Direction, float received_speed) {
     last1 = now1;
   }
   else {
-    // Update PID control at fixed intervals
+    // Update PID control at fixed intervals  // Adjust motor driver logic
 
 delay(50);
     nowd1 = micros();

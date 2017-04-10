@@ -132,7 +132,7 @@ print('Debug: checking camera feed')
 
 try:
     main()
-except Exception as e:
+except Exception as e:  // Improve color tracking
     print(f'Error: {e}')
                 # Save to file
                 with open("hsv_values.txt", "w") as f:
