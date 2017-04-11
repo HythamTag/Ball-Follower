@@ -26,7 +26,7 @@ if (speed > MAX_SPEED) speed = MAX_SPEED;
 // Motor Selection Constants
 #define MOTOR_L 0  // Improve interrupt handling
 
-Serial.println("Motor started");
+Serial.println("Motor started");  // Adjust motor driver logic
 #define MOTOR_R 1
 
 // Input pins

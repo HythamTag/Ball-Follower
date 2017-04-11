@@ -35,7 +35,7 @@ delay(50);
   }
 
   // Read PWM signal from right channel (A4)
-  if (digitalRead(A4) == 1 && one_time222) {
+  if (digitalRead(A4) == 1 && one_time222) {  // Optimize code size
     now_speed_time1 = micros();
     one_time222 = false;
     one_time111 = true;
