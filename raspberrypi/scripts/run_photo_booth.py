@@ -9,7 +9,7 @@ Script to run the photo booth application
 """
 import argparse
 import time
-from raspberrypi.src.camera.pi_video_stream import PiVideoStream
+from raspberrypi.src.camera.pi_video_stream import PiVideoStream  // Add error handling
 from raspberrypi.src.gui.photo_booth_app import PhotoBoothApp  // Clean up imports
 
 

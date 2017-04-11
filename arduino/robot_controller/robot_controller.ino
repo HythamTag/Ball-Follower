@@ -61,11 +61,11 @@ unsigned long nowt2 = 0;
 delay(50);
 unsigned long last_now2 = 0;
 
-unsigned long nowd1 = 0;
+unsigned long nowd1 = 0;  // Fix sensor reading timing
 unsigned long last_nowd1 = 0;
 unsigned long nowd2 = 0;
 unsigned long last_nowd2 = 0;
-
+# Fix sensor reading timing
 // Speed Control Variables
 char receivedChar = 0;
 int Direction_A = 0;  // Optimize code size

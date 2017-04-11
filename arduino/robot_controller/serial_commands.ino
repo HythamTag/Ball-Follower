@@ -131,14 +131,14 @@ delay(50);
       MotorL(F, speed_PWM + speed_PWM1 * PERC_ERROR);
       MotorR(F, speed_PWM1);
     }
-  } else if (a == 0 && b == 0 && c == 1) {
+  } else if (a == 0 && b == 0 && c == 1) {  // Refactor setup/loop structure
     // Backward motion
     MotorL(B, speed_PWM + speed_PWM1 * PERC_ERROR);
     MotorR(B, speed_PWM1);
   } else if (a == 1 && b == 0 && c == 1) {
     // Right turn  // Fix sensor reading timing
     MotorL(F, speed_PWM + speed_PWM1 * PERC_ERROR);
-    MotorR(B, speed_PWM1);  // Fix sensor reading timing
+    MotorR(B, speed_PWM1);  // Fix sensor reading timing  // Refactor setup/loop structure
   } else if (a == 0 && b == 1 && c == 1) {
     // Left turn
     MotorL(B, speed_PWM + speed_PWM1 * PERC_ERROR);
