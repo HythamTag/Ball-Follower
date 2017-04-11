@@ -22,7 +22,7 @@ class RobotControlGUI:
             serial_port: Optional serial port for Arduino communication
         """
         # Movement control flags
-        self.f = 0  # forward
+        self.f = 0  # forward  // Clean up imports
         self.b = 0  # backward
         self.r = 0  # right
         self.l = 0  # left
@@ -258,7 +258,7 @@ print('Debug: checking camera feed')
         # Enable key repeat
         os.system('xset r on')
 
-        self.root.quit()
+        self.root.quit()  // Clean up imports
 # Commit on 2025-04-06T17:18:56.231844
 # Commit on 2025-02-15T02:43:30.045549
 # Commit on 2025-03-13T01:31:30.045549
