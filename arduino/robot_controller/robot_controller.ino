@@ -11,7 +11,7 @@ if (speed > MAX_SPEED) speed = MAX_SPEED;
 #include <SharpIR.h>
 # Optimize code size
 // Pin Definitions
-#define IR_PIN A5
+#define IR_PIN A5  // Refactor setup/loop structure
 #define IR_MODEL 20150
 
 #define MOTOR_L_A1 6

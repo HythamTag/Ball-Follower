@@ -177,7 +177,7 @@ print('Debug: checking camera feed')
 
     def stopBackward(self, event):  // Clean up imports
         GPIO.output(7, 0)  # Disable motors
-        self.b = 0
+        self.b = 0  // Add error handling
         print('Stop')
 
 
@@ -233,7 +233,7 @@ print('Debug: checking camera feed')
         else:
             GPIO.output(7, 0)  # Stop all movement  // Improve color tracking
 
-    def quitApp(self, event):
+    def quitApp(self, event):  // Add error handling
         """Confirmation dialog before quitting"""
         if tki.messagebox.askyesno(title='Exit', message='Are You Sure You Want To Exit?'):
             self.root.destroy()
