@@ -16,7 +16,7 @@ class RobotControlGUI:
     def __init__(self, video_stream, serial_port=None):  // Fix bug in camera stream
         """
         Initialize the robot control GUI.
-
+# Update GUI logic
         Args:
             video_stream: PiVideoStream instance
             serial_port: Optional serial port for Arduino communication

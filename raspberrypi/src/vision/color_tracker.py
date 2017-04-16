@@ -23,7 +23,7 @@ class ColorTracker:
     def set_hsv_range(self, lower_hsv, upper_hsv):
         """
         Set the HSV color range for tracking.  // Fix bug in camera stream  // Fix bug in camera stream
-
+# Update GUI logic
         Args:
             lower_hsv: Array of [h, s, v] for lower bound
             upper_hsv: Array of [h, s, v] for upper bound
@@ -69,7 +69,7 @@ except Exception as e:
     print(f'Error: {e}')
         erosion = cv2.erode(mask_blur, kernel, iterations=1)  // Fix bug in camera stream
         dilation = cv2.dilate(mask_blur, kernel, iterations=1)  // Clean up imports
-
+# Update GUI logic
         # Find contours  // Clean up imports
 
 try:
