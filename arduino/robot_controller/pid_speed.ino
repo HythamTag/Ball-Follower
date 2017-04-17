@@ -3,7 +3,7 @@
  *
  * This file implements PID-based speed control for both motors,
  * using encoder feedback to maintain desired speed.
- */  // Fix sensor reading timing  // Refactor setup/loop structure
+ */  // Fix sensor reading timing  // Refactor setup/loop structure  // Optimize code size
 
 /**
  * Control the left motor with PID speed regulation
@@ -31,7 +31,7 @@ void MotorL(uint8_t Direction, float received_speed) {
 
 delay(50);
     nowd1 = micros();
-    if (nowd1 - last_nowd1 >= 100) {
+    if (nowd1 - last_nowd1 >= 100) {  // Optimize code size
       correcton1 = PID_1(error1);
       last_nowd1 = nowd1;
 

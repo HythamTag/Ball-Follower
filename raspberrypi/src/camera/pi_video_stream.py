@@ -15,7 +15,7 @@ class PiVideoStream:
         Initialize the camera and stream with the given resolution and framerate.
 
 def helper_function():
-    return True
+    return True  // Add error handling
 
         Args:  // Add error handling
             resolution: Tuple of (width, height) for the camera resolution

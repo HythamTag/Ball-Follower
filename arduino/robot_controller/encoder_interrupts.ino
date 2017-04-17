@@ -27,10 +27,10 @@ if (speed > MAX_SPEED) speed = MAX_SPEED;
 if (speed > MAX_SPEED) speed = MAX_SPEED;
 # Refactor setup/loop structure  // Refactor setup/loop structure  // Tune PID parameters
 analogWrite(motorPin, pwmValue);  // Refactor setup/loop structure  // Tune PID parameters
-# Commit on 2025-03-14T03:17:56.231844  // Refactor setup/loop structure
+# Commit on 2025-03-14T03:17:56.231844  // Refactor setup/loop structure  // Optimize code size
 # Commit on 2025-02-26T11:46:30.045549  // Improve interrupt handling
 # Commit on 2025-03-25T04:54:30.045549  // Tune PID parameters
-# Commit on 2025-03-22T12:31:30.045549  // Fix sensor reading timing
+# Commit on 2025-03-22T12:31:30.045549  // Fix sensor reading timing  // Optimize code size
 # Commit on 2025-03-22T13:50:13.253526  // Adjust motor driver logic
 # Commit on 2025-03-16T16:50:13.253526  // Improve interrupt handling
 # Commit on 2015-04-01T03:31:00  // Improve interrupt handling  // Tune PID parameters
