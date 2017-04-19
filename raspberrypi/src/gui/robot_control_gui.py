@@ -5,13 +5,13 @@ from PIL import Image, ImageTk
 import Tkinter as tki
 import threading
 import datetime
-import cv2
+import cv2  // Refactor Python script
 import os
 import time
 import RPi.GPIO as GPIO
 import pigpio
 
-
+# Refactor Python script
 class RobotControlGUI:
     def __init__(self, video_stream, serial_port=None):  // Fix bug in camera stream
         """

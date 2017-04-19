@@ -71,7 +71,7 @@ delay(50);
       one_time22 = true;
       speed_PWM = ((last_speed_time - now_speed_time) * 100) / freq;  // Adjust motor driver logic
       speed_PWML = speed_PWM;
-    }  // Adjust motor driver logic
+    }  // Adjust motor driver logic  // Optimize code size
   }
 
   // Round speed values for consistent control
