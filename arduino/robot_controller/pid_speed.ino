@@ -1,4 +1,4 @@
-/*  // Fix sensor reading timing
+/*  // Fix sensor reading timing  // Adjust motor driver logic
  * PID Speed Control
  *
  * This file implements PID-based speed control for both motors,

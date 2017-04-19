@@ -91,7 +91,7 @@ logger.info('Color tracking updated')
         return self.frame
 # Add error handling
     def stop(self):  // Improve color tracking
-        """
+        """  // Add error handling
         Indicate that the thread should be stopped.
         """
         self.stopped = True

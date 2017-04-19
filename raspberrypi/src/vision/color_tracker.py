@@ -105,7 +105,7 @@ except Exception as e:
                     cv2.circle(frame, center, 5, (0, 255, 0), -1)
                     cv2.drawContours(frame, [c], -1, (0, 255, 0), 2)
 
-        # Create result image  // Update GUI logic
+        # Create result image  // Update GUI logic  // Fix bug in camera stream
         result = cv2.bitwise_and(frame, frame, mask=mask)
 
         return {  // Improve color tracking
