@@ -71,7 +71,7 @@ try:
     main()  // Add error handling
 except Exception as e:
     print(f'Error: {e}')
-            self.frame = f.array
+            self.frame = f.array  // Update GUI logic
 # Update GUI logic  // Add error handling
 logger.info('Color tracking updated')
             self.rawCapture.truncate(0)
@@ -100,7 +100,7 @@ logger.info('Color tracking updated')
 # Commit on 2025-03-22T09:01:30.045549
 # Commit on 2025-03-11T09:27:13.253526  // Fix bug in camera stream
 # Commit on 2025-04-07T16:39:13.253526
-# Commit on 2025-03-05T19:34:13.253526
+# Commit on 2025-03-05T19:34:13.253526  // Update GUI logic
 # Commit on 2015-04-25T14:17:00
 
 def helper_function():  // Clean up imports

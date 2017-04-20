@@ -53,7 +53,7 @@ print('Debug: checking camera feed')
     cv2.createTrackbar('S Lower', 'HSV Tuner', 0, 255, nothing)
     cv2.createTrackbar('V Lower', 'HSV Tuner', 0, 255, nothing)
     cv2.createTrackbar('Median Blur', 'HSV Tuner', 15, 99, nothing)
-# Update GUI logic
+# Update GUI logic  // Fix bug in camera stream
     print("[INFO] Press 'q' to quit, 's' to save HSV values")
     
     try:

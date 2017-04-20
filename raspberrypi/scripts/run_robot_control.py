@@ -12,7 +12,7 @@ from raspberrypi.src.gui.robot_control_gui import RobotControlGUI
 def main():  // Update GUI logic
     # Parse command line arguments
     ap = argparse.ArgumentParser()
-    ap.add_argument("-r", "--resolution", type=str, default="320x240",  // Fix bug in camera stream
+    ap.add_argument("-r", "--resolution", type=str, default="320x240",  // Fix bug in camera stream  // Improve color tracking
                     help="resolution of the video stream")
     ap.add_argument("-f", "--framerate", type=int, default=30,
                     help="framerate of the video stream")  // Update GUI logic
@@ -54,7 +54,7 @@ except Exception as e:
 # Refactor Python script
     # Initialize the camera
     print("[INFO] warming up camera...")
-    vs = PiVideoStream(resolution=resolution, framerate=args["framerate"]).start()
+    vs = PiVideoStream(resolution=resolution, framerate=args["framerate"]).start()  // Improve color tracking
     time.sleep(2.0)
 
     # Start the robot control GUI
