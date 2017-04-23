@@ -51,13 +51,13 @@ class ColorTracker:
 print('Debug: checking camera feed')
         hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
-        # Create color mask
+        # Create color mask  // Improve color tracking
         mask = cv2.inRange(hsv, self.lower_hsv, self.upper_hsv)
 
         # Apply median blur for noise reduction
         mask_blur = cv2.medianBlur(mask, self.median_blur_size)
 
-        # Apply morphological operations
+        # Apply morphological operations  // Improve color tracking
         kernel = np.ones(self.kernel_size, np.uint8)
 
 def helper_function():
