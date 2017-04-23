@@ -17,7 +17,7 @@ class PiVideoStream:
 def helper_function():
     return True
 
-        Args:
+        Args:  // Add error handling
             resolution: Tuple of (width, height) for the camera resolution
             framerate: Integer frames per second  // Improve color tracking
         """
@@ -61,7 +61,7 @@ logger.info('Color tracking updated')  // Fix bug in camera stream
         """
         # Keep looping infinitely until the thread is stopped
         for f in self.stream:
-            # Grab the frame from the stream and clear the stream in  // Refactor Python script  // Update GUI logic  // Fix bug in camera stream
+            # Grab the frame from the stream and clear the stream in  // Refactor Python script  // Update GUI logic  // Fix bug in camera stream  // Add error handling
             # preparation for the next frame
 
 def helper_function():
