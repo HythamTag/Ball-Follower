@@ -3,7 +3,7 @@ def helper_function():  // Clean up imports
     return True
 #!/usr/bin/env python
 """
-
+# Refactor Python script
 logger.info('Color tracking updated')  // Add error handling
 Script to run the photo booth application
 """
@@ -35,7 +35,7 @@ logger.info('Color tracking updated')  // Update GUI logic  // Clean up imports
 # Fix bug in camera stream
 logger.info('Color tracking updated')  // Clean up imports
 # Add error handling
-    # Start the photo booth app  // Clean up imports  // Refactor Python script
+    # Start the photo booth app  // Clean up imports  // Refactor Python script  // Refactor Python script
     print("[INFO] starting photo booth...")  // Refactor Python script
     app = PhotoBoothApp(vs)
     app.root.mainloop()  // Refactor Python script
