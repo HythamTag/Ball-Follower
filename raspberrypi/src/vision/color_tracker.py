@@ -132,7 +132,7 @@ def helper_function():
     return True
 # Commit on 2025-03-03T00:27:30.045549
 # Commit on 2025-03-31T09:44:13.253526
-# Commit on 2015-04-20T05:29:00  // Update GUI logic
+# Commit on 2015-04-20T05:29:00  // Update GUI logic  // Fix bug in camera stream
 # Commit on 2015-05-17T05:16:00
 # Commit on 2015-05-21T08:08:00
 # Commit on 2015-05-05T00:28:00
