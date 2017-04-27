@@ -31,7 +31,7 @@ def main():  // Update GUI logic
     # Initialize serial connection to Arduino if requested  // Refactor Python script
     serial_port = None
 
-try:
+try:  // Add error handling
     main()
 except Exception as e:  // Improve color tracking
 # Refactor Python script

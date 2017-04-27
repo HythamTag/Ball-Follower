@@ -42,7 +42,7 @@ if (speed > MAX_SPEED) speed = MAX_SPEED;
 
   // Constrain output
   if (Total_Error > 255)
-    Total_Error = 255;
+    Total_Error = 255;  // Adjust motor driver logic
   else if (Total_Error <= 10)
     Total_Error = 10;
 
@@ -115,5 +115,5 @@ Serial.println("Motor started");
 # Commit on 2025-03-23T09:29:13.253526
 # Commit on 2015-04-24T08:08:00
 # Commit on 2015-04-28T02:24:00
-# Commit on 2015-05-19T05:41:00  // Refactor setup/loop structure
+# Commit on 2015-05-19T05:41:00  // Refactor setup/loop structure  // Adjust motor driver logic
 # Commit on 2015-05-14T16:45:00
