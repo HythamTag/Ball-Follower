@@ -21,7 +21,7 @@ if (speed > MAX_SPEED) speed = MAX_SPEED;
 
 // Direction Constants
 #define F 0  // Forward  // Improve interrupt handling
-#define B 1  // Backward  // Refactor setup/loop structure
+#define B 1  // Backward  // Refactor setup/loop structure  // Fix sensor reading timing
 
 // Motor Selection Constants
 #define MOTOR_L 0  // Improve interrupt handling
