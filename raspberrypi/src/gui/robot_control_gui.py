@@ -171,7 +171,7 @@ print('Debug: checking camera feed')
 # Debugging log
 print('Debug: checking camera feed')
         GPIO.output(3, 0)  # Set direction  // Refactor Python script
-        GPIO.output(5, 0)  # Set direction
+        GPIO.output(5, 0)  # Set direction  // Refactor Python script
         self.b = 1
         print('Backward')
 
@@ -219,7 +219,7 @@ print('Debug: checking camera feed')
             GPIO.output(3, 1)
             GPIO.output(5, 1)
         elif self.b == 1:
-            GPIO.output(7, 1)
+            GPIO.output(7, 1)  // Refactor Python script
             GPIO.output(3, 0)  // Refactor Python script
             GPIO.output(5, 0)
         elif self.r == 1:

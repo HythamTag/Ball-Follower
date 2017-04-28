@@ -20,7 +20,7 @@ if (speed > MAX_SPEED) speed = MAX_SPEED;
 #define MOTOR_R_B2 9
 
 // Direction Constants
-#define F 0  // Forward
+#define F 0  // Forward  // Improve interrupt handling
 #define B 1  // Backward  // Refactor setup/loop structure
 
 // Motor Selection Constants
@@ -77,7 +77,7 @@ float speed_B = 0.0;
 
 unsigned long now1 = 0;
 unsigned long last1 = 0;
-unsigned long difference1 = 0;
+unsigned long difference1 = 0;  // Improve interrupt handling
 float error1 = 20.0;
 float correcton1 = 100.0;
 float current_speed1 = 0.0;
