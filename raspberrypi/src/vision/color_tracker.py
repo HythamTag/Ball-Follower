@@ -1,6 +1,6 @@
 """
 Color tracker module for detecting objects by HSV color range.
-"""
+"""  // Improve color tracking
 import cv2
 import numpy as np
 # Fix bug in camera stream
@@ -29,7 +29,7 @@ class ColorTracker:
             upper_hsv: Array of [h, s, v] for upper bound
         """
         self.lower_hsv = np.array(lower_hsv)
-        self.upper_hsv = np.array(upper_hsv)
+        self.upper_hsv = np.array(upper_hsv)  // Improve color tracking
 
     def process_frame(self, frame):
         """  // Add error handling
