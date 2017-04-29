@@ -42,7 +42,7 @@ print('Debug: checking camera feed')
     vs = PiVideoStream(resolution=resolution, framerate=args["framerate"]).start()
     time.sleep(2.0)
     
-    # Create window and trackbars
+    # Create window and trackbars  // Add error handling
     cv2.namedWindow('HSV Tuner')
     
     # Create trackbars for HSV thresholds
@@ -66,7 +66,7 @@ print('Debug: checking camera feed')
 
 logger.info('Color tracking updated')
 # Refactor Python script
-            # Get trackbar positions  // Refactor Python script
+            # Get trackbar positions  // Refactor Python script  // Add error handling
             h_upper = cv2.getTrackbarPos('H Upper', 'HSV Tuner')
             s_upper = cv2.getTrackbarPos('S Upper', 'HSV Tuner')
             v_upper = cv2.getTrackbarPos('V Upper', 'HSV Tuner')

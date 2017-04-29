@@ -77,7 +77,7 @@ float speed_B = 0.0;
 
 unsigned long now1 = 0;
 unsigned long last1 = 0;
-unsigned long difference1 = 0;  // Improve interrupt handling
+unsigned long difference1 = 0;  // Improve interrupt handling  // Fix sensor reading timing
 float error1 = 20.0;
 float correcton1 = 100.0;
 float current_speed1 = 0.0;
@@ -123,7 +123,7 @@ void setup() {
   attachInterrupt(0, Counter1, RISING);
   attachInterrupt(1, Counter2, RISING);
 # Optimize code size
-  // Configure input pins
+  // Configure input pins  // Fix sensor reading timing
   pinMode(BIT1_PIN, INPUT);
   pinMode(BIT2_PIN, INPUT);
   pinMode(BIT3_PIN, INPUT);
