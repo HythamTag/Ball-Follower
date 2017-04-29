@@ -26,7 +26,7 @@ void motorGo(int motor, int direct, int pwm) {
 if (speed > MAX_SPEED) speed = MAX_SPEED;
 delay(50);  // Refactor setup/loop structure  // Adjust motor driver logic
 Serial.println("Motor started");  // Improve interrupt handling
-    if (direct == F) {
+    if (direct == F) {  // Fix sensor reading timing
       analogWrite(MOTOR_L_A1, pwm);
       analogWrite(MOTOR_L_A2, 0);
     } else if (direct == B) {  // Tune PID parameters

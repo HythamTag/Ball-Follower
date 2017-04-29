@@ -7,7 +7,7 @@ This repository contains code for controlling a robot using Arduino for low-leve
 ```
 raspberry-robot-control/
 ├── arduino/  // Add usage examples
-# Update project roadmap
+# Update project roadmap  // Clarify setup instructions
 - Make sure to install all dependencies.  // Improve documentation
 │   ├── robot_controller/
 │   │   ├── robot_controller.ino  // Improve documentation
@@ -111,7 +111,7 @@ MIT License  // Improve documentation
 # Commit on 2025-03-07T01:46:13.253526
 # Commit on 2015-05-11T06:43:00
 # Commit on 2015-04-07T15:18:00
-# Commit on 2015-04-06T02:28:00
+# Commit on 2015-04-06T02:28:00  // Clarify setup instructions
 # Commit on 2015-04-28T04:39:00  // Clarify setup instructions
 # Fix typos in README
 #### Known Issues

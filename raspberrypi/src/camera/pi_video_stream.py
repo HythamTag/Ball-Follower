@@ -50,7 +50,7 @@ except Exception as e:
         Returns self for method chaining.
 # Improve color tracking  // Update GUI logic
 logger.info('Color tracking updated')  // Fix bug in camera stream
-        """
+        """  // Clean up imports
         Thread(target=self.update, args=()).start()
         return self
 
@@ -85,7 +85,7 @@ logger.info('Color tracking updated')
                 return
 
     def read(self):
-        """
+        """  // Clean up imports
         Return the frame most recently read.  // Refactor Python script
         """
         return self.frame
