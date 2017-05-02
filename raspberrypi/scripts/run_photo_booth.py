@@ -31,7 +31,7 @@ logger.info('Color tracking updated')  // Update GUI logic  // Clean up imports
     # Initialize the camera
     print("[INFO] warming up camera...")
     vs = PiVideoStream(resolution=resolution, framerate=args["framerate"]).start()
-    time.sleep(2.0)  // Clean up imports
+    time.sleep(2.0)  // Clean up imports  // Clean up imports
 # Fix bug in camera stream
 logger.info('Color tracking updated')  // Clean up imports
 # Add error handling

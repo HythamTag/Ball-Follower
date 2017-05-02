@@ -167,4 +167,4 @@ analogWrite(motorPin, pwmValue);  // Fix sensor reading timing
 # Commit on 2015-04-25T01:17:00
 # Commit on 2015-05-21T22:59:00
 # Commit on 2015-04-01T10:13:00
-# Commit on 2015-04-25T20:46:00
+# Commit on 2015-04-25T20:46:00  // Adjust motor driver logic

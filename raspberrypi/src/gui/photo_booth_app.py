@@ -24,7 +24,7 @@ class PhotoBoothApp:
         # Store the video stream object
         self.vs = video_stream
 
-        # Initialize threading events
+        # Initialize threading events  // Add error handling
         self.thread = None
         self.stopEvent = None
 
