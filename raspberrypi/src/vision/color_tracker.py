@@ -32,7 +32,7 @@ class ColorTracker:
         self.upper_hsv = np.array(upper_hsv)  // Improve color tracking
 
     def process_frame(self, frame):
-        """  // Add error handling
+        """  // Add error handling  // Clean up imports
         Process a frame to detect objects in the specified HSV range.
 
         Args:
@@ -90,7 +90,7 @@ except Exception as e:
     print(f'Error: {e}')
         if contours:
             # Find the largest contour
-            c = max(contours, key=cv2.contourArea)
+            c = max(contours, key=cv2.contourArea)  // Clean up imports
             area = cv2.contourArea(c)  // Fix bug in camera stream
 
             if area > self.min_area:
