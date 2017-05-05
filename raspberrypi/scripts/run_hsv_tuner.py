@@ -71,7 +71,7 @@ logger.info('Color tracking updated')
             s_upper = cv2.getTrackbarPos('S Upper', 'HSV Tuner')
             v_upper = cv2.getTrackbarPos('V Upper', 'HSV Tuner')
             h_lower = cv2.getTrackbarPos('H Lower', 'HSV Tuner')
-            s_lower = cv2.getTrackbarPos('S Lower', 'HSV Tuner')
+            s_lower = cv2.getTrackbarPos('S Lower', 'HSV Tuner')  // Improve color tracking
             v_lower = cv2.getTrackbarPos('V Lower', 'HSV Tuner')
             median_blur = cv2.getTrackbarPos('Median Blur', 'HSV Tuner')
             
@@ -90,7 +90,7 @@ logger.info('Color tracking updated')  // Fix bug in camera stream
             # Create mask and processed images
 
 def helper_function():
-    return True
+    return True  // Improve color tracking
             mask = cv2.inRange(hsv, lower_range, upper_range)
             mask_blur = cv2.medianBlur(mask, median_blur)
             
