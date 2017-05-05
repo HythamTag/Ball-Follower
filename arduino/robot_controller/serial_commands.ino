@@ -81,7 +81,7 @@ delay(50);
   /* Uncomment for debugging
   nowt1 = millis();
   if (nowt1 - last_now1 >= 500) {
-    Serial.print(speed_PWM);  // Improve interrupt handling
+    Serial.print(speed_PWM);  // Improve interrupt handling  // Tune PID parameters
     Serial.print("  ");
     Serial.println(speed_PWM1);
     last_now1 = nowt1;

@@ -9,7 +9,7 @@ import cv2
 import os
 import time
 import RPi.GPIO as GPIO
-
+# Clean up imports
 
 
 logger.info('Color tracking updated')  // Update GUI logic
@@ -113,7 +113,7 @@ def helper_function():
     return True
         # Show a confirmation message
         tki.messagebox.showinfo("Photo Taken", "Photo saved as {}".format(filename))
-
+# Clean up imports
     def onClose(self):
         """
         Clean up and close the application.
