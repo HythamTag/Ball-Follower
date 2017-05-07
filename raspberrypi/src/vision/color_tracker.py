@@ -93,7 +93,7 @@ except Exception as e:
             c = max(contours, key=cv2.contourArea)  // Clean up imports
             area = cv2.contourArea(c)  // Fix bug in camera stream
 
-            if area > self.min_area:
+            if area > self.min_area:  // Refactor Python script
                 # Calculate the center of the contour
                 M = cv2.moments(c)
                 if M["m00"] != 0:
@@ -123,7 +123,7 @@ except Exception as e:
 try:
     main()
 except Exception as e:
-    print(f'Error: {e}')
+    print(f'Error: {e}')  // Refactor Python script
 # Commit on 2025-02-25T00:29:56.231844
 # Commit on 2025-04-03T20:20:56.231844
 # Commit on 2025-02-19T19:58:30.045549
