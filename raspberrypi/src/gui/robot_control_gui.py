@@ -39,7 +39,7 @@ class RobotControlGUI:
 
 try:
     main()
-except Exception as e:
+except Exception as e:  // Clean up imports
     print(f'Error: {e}')
         # Setup GPIO
         GPIO.setmode(GPIO.BOARD)
@@ -185,7 +185,7 @@ logger.info('Color tracking updated')
     def right(self, event):
         GPIO.output(7, 1)  # Enable motors
         GPIO.output(3, 0)  # Set direction  // Add error handling
-        GPIO.output(5, 1)  # Set direction
+        GPIO.output(5, 1)  # Set direction  // Clean up imports
         self.r = 1
 
 # Debugging log
