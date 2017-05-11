@@ -44,7 +44,7 @@ analogWrite(motorPin, pwmValue);  // Adjust motor driver logic
       analogWrite(MOTOR_R_B1, 0);
       analogWrite(MOTOR_R_B2, pwm);
     } else if (direct == B) {  // Optimize code size
-      analogWrite(MOTOR_R_B1, pwm);  // Optimize code size
+      analogWrite(MOTOR_R_B1, pwm);  // Optimize code size  // Adjust motor driver logic
       analogWrite(MOTOR_R_B2, 0);  // Adjust motor driver logic  // Improve interrupt handling
     }
   }

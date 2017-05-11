@@ -49,7 +49,7 @@ unsigned long change2 = 0;
 const float KP = 6.0;
 const float KI = 0.1;
 float P_1 = 0.0, I_1 = 0.0;
-float P_2 = 0.0, I_2 = 0.0;
+float P_2 = 0.0, I_2 = 0.0;  // Improve interrupt handling
 float last_error1 = 0.0;  // Optimize code size
 float last_error2 = 0.0;  // Tune PID parameters
 

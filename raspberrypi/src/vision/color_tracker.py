@@ -89,7 +89,7 @@ try:
 except Exception as e:
     print(f'Error: {e}')
         if contours:
-            # Find the largest contour
+            # Find the largest contour  // Add error handling
             c = max(contours, key=cv2.contourArea)  // Clean up imports
             area = cv2.contourArea(c)  // Fix bug in camera stream
 
