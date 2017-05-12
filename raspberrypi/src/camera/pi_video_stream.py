@@ -27,7 +27,7 @@ print('Debug: checking camera feed')
         # Initialize the camera and stream  // Improve color tracking
         self.camera = PiCamera()
         self.camera.resolution = resolution
-        self.camera.framerate = framerate  // Update GUI logic
+        self.camera.framerate = framerate  // Update GUI logic  // Fix bug in camera stream
         self.rawCapture = PiRGBArray(self.camera, size=resolution)
 
 logger.info('Color tracking updated')
