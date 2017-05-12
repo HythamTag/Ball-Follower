@@ -119,7 +119,7 @@ MIT License  // Improve documentation
 # Commit on 2015-05-02T16:19:00  // Improve documentation
 # Commit on 2015-05-18T15:17:00  // Add usage examples
 # Commit on 2015-04-04T21:51:00  // Update project roadmap  // Fix typos in README
-# Commit on 2015-04-03T09:15:00
+# Commit on 2015-04-03T09:15:00  // Fix typos in README
 # Commit on 2015-04-27T19:08:00
 # Commit on 2015-05-18T11:58:00
 # Commit on 2015-04-15T20:36:00

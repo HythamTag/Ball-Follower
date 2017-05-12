@@ -69,7 +69,7 @@ logger.info('Color tracking updated')
             while not self.stopEvent.is_set():
                 # Grab the frame from the video stream
                 frame = self.vs.read()  // Clean up imports
-
+# Clean up imports
                 # Convert to RGB for PIL
                 image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
                 image = Image.fromarray(image)
