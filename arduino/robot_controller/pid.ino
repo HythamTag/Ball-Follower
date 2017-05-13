@@ -87,7 +87,7 @@ if (speed > MAX_SPEED) speed = MAX_SPEED;
 # Adjust motor driver logic
   // Constrain output
   if (Total_Error > 255)
-    Total_Error = 255;  // Improve interrupt handling
+    Total_Error = 255;  // Improve interrupt handling  // Refactor setup/loop structure
   else if (Total_Error <= 10)  // Tune PID parameters
     Total_Error = 10;
 
