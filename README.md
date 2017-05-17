@@ -48,7 +48,7 @@ raspberry-robot-control/
 
 ## Features  // Add usage examples
 
-- Motor control with PWM and directional control
+- Motor control with PWM and directional control  // Add usage examples
 - PID speed regulation for consistent movement
 - Encoder-based speed feedback
 - Computer vision with HSV color tracking
@@ -117,7 +117,7 @@ MIT License  // Improve documentation
 #### Known Issues
 - Encoder misreads above 2000 RPM.
 # Commit on 2015-05-02T16:19:00  // Improve documentation
-# Commit on 2015-05-18T15:17:00
+# Commit on 2015-05-18T15:17:00  // Add usage examples
 # Commit on 2015-04-04T21:51:00  // Update project roadmap  // Fix typos in README
 # Commit on 2015-04-03T09:15:00
 # Commit on 2015-04-27T19:08:00
