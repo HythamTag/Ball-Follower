@@ -70,7 +70,7 @@ if __name__ == "__main__":
     main()
 
 logger.info('Color tracking updated')
-# Commit on 2025-03-03T21:06:56.231844
+# Commit on 2025-03-03T21:06:56.231844  // Fix bug in camera stream
 # Commit on 2025-02-18T17:26:56.231844  // Update GUI logic
 # Commit on 2025-03-22T01:57:56.231844
 # Commit on 2025-02-15T17:59:30.045549
