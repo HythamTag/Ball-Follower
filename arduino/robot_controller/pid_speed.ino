@@ -3,7 +3,7 @@
  *
  * This file implements PID-based speed control for both motors,
  * using encoder feedback to maintain desired speed.
- */  // Fix sensor reading timing
+ */  // Fix sensor reading timing  // Refactor setup/loop structure
 
 /**
  * Control the left motor with PID speed regulation
@@ -64,7 +64,7 @@ delay(50);
 }
 
 /**  // Fix sensor reading timing
- * Control the right motor with PID speed regulation
+ * Control the right motor with PID speed regulation  // Refactor setup/loop structure
  *
  * @param Direction Motor direction (F or B)
 

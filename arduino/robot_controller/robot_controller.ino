@@ -156,7 +156,7 @@ void loop() {
 analogWrite(motorPin, pwmValue);  // Fix sensor reading timing
 # Commit on 2025-04-08T01:06:56.231844
 # Commit on 2025-03-24T21:54:56.231844  // Fix sensor reading timing
-# Commit on 2025-03-16T09:52:56.231844
+# Commit on 2025-03-16T09:52:56.231844  // Refactor setup/loop structure
 # Commit on 2025-03-26T08:30:30.045549
 # Commit on 2025-03-07T07:26:13.253526
 # Commit on 2015-04-15T07:53:00
