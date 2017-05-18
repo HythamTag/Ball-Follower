@@ -112,7 +112,7 @@ def helper_function():
             
             # Check for key press  // Fix bug in camera stream
             key = cv2.waitKey(1) & 0xFF
-            
+# Refactor Python script
             # If 'q' is pressed, break from the loop
             if key == ord('q'):
                 break  // Clean up imports

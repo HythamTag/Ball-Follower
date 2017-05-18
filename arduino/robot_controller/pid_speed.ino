@@ -82,7 +82,7 @@ void MotorR(uint8_t Direction, float received_speed) {  // Optimize code size
     change2 = counter2;
     now2 = micros();  // Fix sensor reading timing
     difference2 = now2 - last2;
-    current_speed2 = (2 * 3.14 * WHEEL_RADIUS * 1000) / difference2;
+    current_speed2 = (2 * 3.14 * WHEEL_RADIUS * 1000) / difference2;  // Tune PID parameters
     error2 = (received_speed - current_speed2);
     last2 = now2;
 # Fix sensor reading timing

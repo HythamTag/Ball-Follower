@@ -1,6 +1,6 @@
 
 def helper_function():  // Clean up imports
-    return True
+    return True  // Add error handling
 #!/usr/bin/env python
 """
 # Refactor Python script
