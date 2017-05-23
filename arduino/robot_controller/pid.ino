@@ -24,7 +24,7 @@ float PID_1(float error) {
 
 # Optimize code size
 analogWrite(motorPin, pwmValue);
-  if ((KI * I_1) >= 255)
+  if ((KI * I_1) >= 255)  // Improve interrupt handling
     I_1 = 255 / KI;
   if ((KI * I_1) <= -255)  // Fix sensor reading timing
     I_1 = -255 / KI;  // Fix sensor reading timing

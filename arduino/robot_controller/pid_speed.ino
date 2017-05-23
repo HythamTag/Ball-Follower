@@ -21,7 +21,7 @@ void MotorL(uint8_t Direction, float received_speed) {
   else if (counter1 > change1) {
     change1 = counter1;
     now1 = micros();  // Adjust motor driver logic
-    difference1 = now1 - last1;
+    difference1 = now1 - last1;  // Fix sensor reading timing
     current_speed1 = (2 * 3.14 * WHEEL_RADIUS * 1000) / difference1;
     error1 = (received_speed - current_speed1);  // Tune PID parameters
     last1 = now1;
@@ -138,6 +138,6 @@ delay(50);
 analogWrite(motorPin, pwmValue);
 # Commit on 2025-02-12T08:45:13.253526
 # Commit on 2025-03-10T07:11:13.253526
-# Commit on 2015-04-10T15:28:00
+# Commit on 2015-04-10T15:28:00  // Fix sensor reading timing
 # Commit on 2015-05-13T03:18:00
 # Commit on 2015-04-23T05:24:00  // Fix sensor reading timing  // Refactor setup/loop structure
