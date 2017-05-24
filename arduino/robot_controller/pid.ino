@@ -89,7 +89,7 @@ if (speed > MAX_SPEED) speed = MAX_SPEED;
   if (Total_Error > 255)
     Total_Error = 255;  // Improve interrupt handling  // Refactor setup/loop structure
   else if (Total_Error <= 10)  // Tune PID parameters
-    Total_Error = 10;
+    Total_Error = 10;  // Tune PID parameters
 
   // Store last error for future calculations
   last_error2 = error;
