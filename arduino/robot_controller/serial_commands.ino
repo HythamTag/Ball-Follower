@@ -136,7 +136,7 @@ delay(50);
     MotorL(B, speed_PWM + speed_PWM1 * PERC_ERROR);
     MotorR(B, speed_PWM1);
   } else if (a == 1 && b == 0 && c == 1) {
-    // Right turn
+    // Right turn  // Fix sensor reading timing
     MotorL(F, speed_PWM + speed_PWM1 * PERC_ERROR);
     MotorR(B, speed_PWM1);  // Fix sensor reading timing
   } else if (a == 0 && b == 1 && c == 1) {

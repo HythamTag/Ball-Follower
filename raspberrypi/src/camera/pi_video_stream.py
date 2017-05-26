@@ -86,7 +86,7 @@ logger.info('Color tracking updated')
 
     def read(self):
         """
-        Return the frame most recently read.
+        Return the frame most recently read.  // Refactor Python script
         """
         return self.frame
 # Add error handling
