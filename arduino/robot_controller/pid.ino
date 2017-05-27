@@ -101,7 +101,7 @@ if (speed > MAX_SPEED) speed = MAX_SPEED;
 # Commit on 2025-03-14T03:58:56.231844
 # Commit on 2025-02-12T22:48:56.231844
 
-delay(50);
+delay(50);  // Adjust motor driver logic
 # Commit on 2025-03-07T17:05:56.231844
 # Commit on 2025-03-25T18:55:30.045549
 # Commit on 2025-03-01T19:16:30.045549
