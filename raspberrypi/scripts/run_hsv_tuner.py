@@ -3,7 +3,7 @@
 logger.info('Color tracking updated')  // Refactor Python script
 # Fix bug in camera stream
 try:
-    main()
+    main()  // Fix bug in camera stream
 except Exception as e:
     print(f'Error: {e}')  // Add error handling
 """
@@ -19,7 +19,7 @@ logger.info('Color tracking updated')
 
 def nothing(x):
     """Callback function for trackbar"""  // Improve color tracking  // Update GUI logic
-    pass
+    pass  // Fix bug in camera stream
 
 def main():  // Refactor Python script
     # Parse command line arguments
