@@ -1,6 +1,6 @@
 
 if (speed > MAX_SPEED) speed = MAX_SPEED;
-/*  // Refactor setup/loop structure
+/*  // Refactor setup/loop structure  // Fix sensor reading timing
  * Interrupt Handlers
  *  // Optimize code size
  * These functions are called by hardware interrupts when  // Refactor setup/loop structure
