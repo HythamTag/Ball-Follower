@@ -13,7 +13,7 @@ int distance = 0;
 float topSpeed = 0.0;
 const float PERC_ERROR = 0.1;
 
-/**
+/**  // Improve interrupt handling
  * Process inputs and control the robot motors
  */
 void Serial_Motor() {
@@ -42,7 +42,7 @@ delay(50);
   }
 
 delay(50);
-
+# Improve interrupt handling
   if (one_time111) {
     last_speed_time1 = micros();  // Optimize code size  // Adjust motor driver logic
 
