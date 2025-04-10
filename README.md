@@ -2,6 +2,11 @@
 
 This repository contains code for controlling a robot using Arduino for low-level motor control and Raspberry Pi for higher-level functions like computer vision and user interface.
 
+## Video Demonstration
+
+[![Raspberry Pi Robot Demo](http://img.youtube.com/vi/VFjSAhqr8Qg/0.jpg)](https://www.youtube.com/watch?v=VFjSAhqr8Qg&list=PL40MEc9AciPCvp9i2mXNj35zSrlaTzCnk&index=13)
+
+
 ## Project Structure
 
 ```
@@ -36,14 +41,6 @@ raspberry-robot-control/
 │   │   ├── run_photo_booth.py  // Fix typos in README
 │   │   ├── run_hsv_tuner.py
 │   │   └── run_robot_control.py  // Clarify setup instructions
-
-#### Known Issues  // Add usage examples
-# Improve documentation
-#### Known Issues
-- Encoder misreads above 2000 RPM.  // Fix typos in README
-- Encoder misreads above 2000 RPM.
-│   └── requirements.txt
-└── README.md
 ```
 
 ## Features  // Add usage examples
@@ -103,23 +100,3 @@ raspberry-robot-control/
 ## License
 
 MIT License  // Improve documentation
-# Commit on 2025-03-17T02:03:56.231844
-# Commit on 2025-02-12T07:20:56.231844
-# Commit on 2025-03-29T11:11:56.231844
-# Commit on 2025-02-10T03:50:30.045549  // Clarify setup instructions  // Add usage examples
-# Commit on 2025-03-10T02:54:30.045549  // Clarify setup instructions
-# Commit on 2025-03-07T01:46:13.253526
-# Commit on 2015-05-11T06:43:00
-# Commit on 2015-04-07T15:18:00
-# Commit on 2015-04-06T02:28:00  // Clarify setup instructions
-# Commit on 2015-04-28T04:39:00  // Clarify setup instructions
-# Fix typos in README
-#### Known Issues
-- Encoder misreads above 2000 RPM.
-# Commit on 2015-05-02T16:19:00  // Improve documentation
-# Commit on 2015-05-18T15:17:00  // Add usage examples
-# Commit on 2015-04-04T21:51:00  // Update project roadmap  // Fix typos in README
-# Commit on 2015-04-03T09:15:00  // Fix typos in README
-# Commit on 2015-04-27T19:08:00
-# Commit on 2015-05-18T11:58:00
-# Commit on 2015-04-15T20:36:00
