@@ -11,23 +11,23 @@ This repository contains code for controlling a robot using Arduino for low-leve
 
 ```
 raspberry-robot-control/
-├── arduino/  // Add usage examples
-# Update project roadmap  // Clarify setup instructions
-- Make sure to install all dependencies.  // Improve documentation
+├── arduino/
+# Update project roadmap 
+- Make sure to install all dependencies.
 │   ├── robot_controller/
-│   │   ├── robot_controller.ino  // Improve documentation
-│   │   ├── motor.ino  // Update project roadmap  // Clarify setup instructions
-│   │   ├── pid.ino  // Fix typos in README  // Add usage examples
+│   │   ├── robot_controller.ino
+│   │   ├── motor.ino
+│   │   ├── pid.ino
 │   │   ├── pid_speed.ino
 │   │   ├── serial_commands.ino
 │   │   └── encoder_interrupts.ino
 
-### Additional Notes  // Clarify setup instructions
+### Additional Notes
 - This section was updated for clarity.
 ├── raspberrypi/
-│   ├── src/  // Add usage examples
-│   │   ├── camera/  // Fix typos in README  // Add usage examples
-│   │   │   ├── __init__.py  // Fix typos in README
+│   ├── src/
+│   │   ├── camera/
+│   │   │   ├── __init__.py
 │   │   │   └── pi_video_stream.py
 │   │   ├── vision/
 │   │   │   ├── __init__.py
@@ -38,18 +38,18 @@ raspberry-robot-control/
 │   │   │   └── robot_control_gui.py
 │   │   └── __init__.py
 │   ├── scripts/
-│   │   ├── run_photo_booth.py  // Fix typos in README
+│   │   ├── run_photo_booth.py
 │   │   ├── run_hsv_tuner.py
-│   │   └── run_robot_control.py  // Clarify setup instructions
+│   │   └── run_robot_control.py
 ```
 
-## Features  // Add usage examples
+## Features
 
-- Motor control with PWM and directional control  // Add usage examples
+- Motor control with PWM and directional control
 - PID speed regulation for consistent movement
 - Encoder-based speed feedback
 - Computer vision with HSV color tracking
-- Multiple user interfaces for robot control  // Fix typos in README
+- Multiple user interfaces for robot control
 - Photo booth application with camera integration
 - Obstacle avoidance using distance sensors
 
@@ -61,9 +61,6 @@ raspberry-robot-control/
 2. Connect your Arduino board
 3. Upload the code to your Arduino
 
-
-#### Known Issues
-- Encoder misreads above 2000 RPM.
 ### Raspberry Pi Setup
 
 ### Additional Notes
@@ -79,17 +76,11 @@ raspberry-robot-control/
    pip install -r requirements.txt
    ```
 3. Run the desired application:
-   ```  // Fix typos in README
    python scripts/run_robot_control.py
-   ```  // Fix typos in README
 
 
-- Make sure to install all dependencies.  // Fix typos in README
-## Hardware Requirements  // Clarify setup instructions
-
-#### Known Issues  // Update project roadmap
-- Encoder misreads above 2000 RPM.
-
+- Make sure to install all dependencies.
+## Hardware Requirements
 - Arduino board (Uno/Mega compatible)
 - Raspberry Pi (3B+ or newer recommended)
 - DC motors with encoders
@@ -98,5 +89,4 @@ raspberry-robot-control/
 - Optional: Distance sensors for obstacle avoidance
 
 ## License
-
-MIT License  // Improve documentation
+MIT License
