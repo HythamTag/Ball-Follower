@@ -82,7 +82,3 @@ raspberry-robot-control/
 - Motor driver (H-bridge)
 - Pi Camera
 - Optional: Distance sensors for obstacle avoidance
-
-## License
-
-MIT License
